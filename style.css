@@ -1,0 +1,100 @@
+.heading{
+    font-size: 90px;
+    color: rgb(6, 97, 97);
+}
+
+
+table {
+    /*margin: 0 auto;*/
+    margin-top: 50px;
+    border-collapse: collapse;
+    width:350px;
+    height: 350px;
+}
+table td {
+    width:200px;
+    height:100px;
+    /*padding: 0.5rem;
+*/    border: 10px solid rgb(29, 62, 94);
+}
+/*table th {
+    width:200px;
+    height:100px;
+    /*padding: 0.5rem;
+    border: 10px solid  rgb(29, 62, 94);
+} */
+
+/* Removing all unwanted border
+from left hand side by calling
+all the elements in the first
+column and removing their left
+border*/
+table tr td:first-child, th:first-child{
+    border-left: none;
+}
+
+/* Removing all unwanted border
+from top of the table by calling
+all the elements in first row and
+removing their top border*/
+table tr:first-child td{
+    border-top: none;
+}
+
+/* Removing all unwanted border
+from right hand side by calling
+all the elements in last row and
+removing their right border*/
+table tr td:last-child{
+    border-right: none;
+}
+
+/* Removing all unwanted border
+from bottom of the table by
+calling all the elements in
+last column and removing their
+bottom border*/
+table tr:last-child td{
+    border-bottom: none;
+}
+.x {
+    color: rgb(8, 102, 28);
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  .o {
+    color: rgb(9, 93, 129);
+    font-size: 80px;
+    text-align: center;
+  }
+  #p1{
+    margin-top: 58px;
+    margin-left: 706px;
+    position: fixed;
+    color:rgb(12, 123, 123);
+    font-size: 80px;
+    font-style: normal;
+  }
+  div{
+    text-align: center;
+  }
+  body{
+   background-color: rgb(68, 63, 63);
+    
+  }
+  button {
+    background-color: #3f5f86;
+    border: none;
+    color: rgb(22, 29, 72);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 81px 91px;
+    margin-left:-235px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
